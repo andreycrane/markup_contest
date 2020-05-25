@@ -20,7 +20,7 @@ export default {
     return {
       items: [
         {
-          img: require('@/assets/image/paper_hand.png'),
+          img: require("@/assets/image/paper_hand.png"),
           title: "a4 paper",
           description:
             "computer manufacturer Lenovo is in hot water this week after pre-installing"
@@ -44,4 +44,4 @@ export default {
 };
 </script>
 
-<style src="./features.css"></style>
+<style scoped src="./features.css"></style>
