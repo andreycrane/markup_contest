@@ -6,6 +6,8 @@
       :imgUrl="item.img"
       :title="item.title"
       :description="item.description"
+      :isNew="item.isNew"
+      :position="item.position"
       :key="key"
       v-for="(item, key) in items"
     />
@@ -23,19 +25,22 @@ export default {
           img: require("@/assets/image/paper_hand.png"),
           title: "a4 paper",
           description:
-            "computer manufacturer Lenovo is in hot water this week after pre-installing"
+            "computer manufacturer Lenovo is in hot water this week after pre-installing",
+          position: "-40px 0px"
         },
         {
           img: require("@/assets/image/Eyedropper.png"),
           title: "EYEDROPER",
           description:
-            "It seems like hundreds of new iPhone apps pop up every week, but which"
+            "It seems like hundreds of new iPhone apps pop up every week, but which",
+          isNew: true
         },
         {
           img: require("@/assets/image/Crown.png"),
           title: "CROWN",
           description:
-            "Watching a movie on your smartphone can be pretty great, but who has the arm"
+            "Watching a movie on your smartphone can be pretty great, but who has the arm",
+          position: "-60px 0"
         }
       ]
     };
