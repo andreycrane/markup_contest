@@ -1,10 +1,14 @@
 <template>
   <article class="news-item">
-    <img :src="imgUrl" />
-    <h2 v-text="title" class="item-title" />
-    <div v-text="description" class="item-description" />
-    <div v-text="views" class="item-views" />
-    <div v-text="published" class="item-views" />
+    <img :src="imgUrl" class="item-img"/>
+    <div class="item-preview">
+      <h2 v-text="title" class="preview-title" />
+      <div v-text="description" class="preview-description" />
+    </div>
+    <div class="item-info">
+      <div v-text="published" class="info-published" />
+      <div v-text="views" class="info-views" />
+    </div>
   </article>
 </template>
 
