@@ -12,4 +12,4 @@ export default {
 };
 </script>
 
-<style src="./feature.css"></style>
+<style scoped src="./feature.css"></style>
