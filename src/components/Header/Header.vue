@@ -5,22 +5,50 @@
         <span class="first-part">Land</span>
         <span class="second-part">ing</span>
       </h1>
-      <nav class="navigation">
-        <span class="navigation-item">Products</span>
-        <span class="navigation-item">About</span>
-        <span class="navigation-item">Blog</span>
-        <span class="navigation-item">Contacts</span>
+      <nav :class="{ navigation: true, 'navigation--show': showNavigation }">
+        <span
+          class="navigation-close"
+          @click="onCloseMobileNavigation"
+        >
+          &times;
+        </span>
+        <a class="navigation-item">Products</a>
+        <a class="navigation-item">About</a>
+        <a class="navigation-item">Blog</a>
+        <a class="navigation-item">Contacts</a>
       </nav>
+      <div
+        class="mobile-button"
+        @click="onShowMobileNavigation"
+      >
+        <span class="mobile-button__dash"></span>
+        <span class="mobile-button__dash"></span>
+        <span class="mobile-button__dash"></span>
+      </div>
     </div>
     <div class="header-section">
       <span class="header-subtitle">Universal Music Group And Bands</span>
-      <button class="btn">Learn More</button>
+      <a class="action-btn">Learn More</a>
     </div>
   </header>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      showNavigation: false
+    };
+  },
+  methods: {
+    onShowMobileNavigation() {
+      this.showNavigation = true;
+    },
+    onCloseMobileNavigation() {
+      this.showNavigation = false;
+    }
+  }
+};
 </script>
 
-<style src="./header.css"> </style>
+<style scoped src="./header.css"></style>

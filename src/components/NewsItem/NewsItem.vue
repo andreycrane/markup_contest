@@ -1,11 +1,17 @@
 <template>
-  <div>
-    <h2>New Item</h2>
-  </div>
+  <article class="news-item">
+    <img :src="imgUrl" />
+    <h2 v-text="title" class="item-title" />
+    <div v-text="description" class="item-description" />
+    <div v-text="views" class="item-views" />
+    <div v-text="published" class="item-views" />
+  </article>
 </template>
 
 <script>
-export default {};
+export default {
+  props: ["imgUrl", "title", "description", "views", "published"]
+};
 </script>
 
-<style src="./news-item.css"> </style>
+<style scoped src="./news-item.css"></style>

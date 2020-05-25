@@ -2,71 +2,94 @@
   display: flex;
   flex-direction: column;
   padding: 18px 30px 54px;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0) 53.65%,
-    rgba(0, 0, 0, 0.5) 100%
-  ) #000000;
+  background: #000000;
+  color: #ffffff;
   background-image: url(../../assets/image/Speaker.png);
-  background-position: 50% 0%;
-  background-size: 70%;
+  background-position: 50% 200px;
+  background-size: 150%;
   background-repeat: no-repeat;
+  font-family: Montserrat, sans-serif;
 }
 
 .menu-section {
   display: flex;
-}
-
-.first-part {
-  color: #ffffff;
+  justify-content: space-between;
+  margin-bottom: 86px;
 }
 
 .second-part {
-  color: #FFC80A;
+  color: #ffc80a;
   font-style: italic;
 }
 
 .navigation {
-  display: flex;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  flex: 1 0 90%;
+  background: rgba(0, 0, 0, 0.9);
+  font-weight: bold;
+}
+
+.navigation--show {
+  display: flex;
+}
+
+.navigation-close {
+  font-size: 52px;
 }
 
 .navigation-item {
-  color: #ffffff;
   text-transform: uppercase;
-  margin: 0 20px;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  margin: 10px 0;
   font-size: 12px;
   line-height: 15px;
 }
+
+.mobile-button {
+  display: flex;
+  flex-direction: column;
+  width: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-button__dash {
+  display: block;
+  height: 3px;
+  background-color: white;
+  margin: 2px 0;
+}
+
+.mobile-button__dash:nth-child(1) { width: 24px; }
+.mobile-button__dash:nth-child(2) { width: 18px; }
+.mobile-button__dash:nth-child(3) { width: 12px; }
 
 .header-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
 }
 
 .header-subtitle {
-  color: white;
-  margin-bottom: 36px;
-  font-family: 'Arvo', serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 60px;
-  line-height: 74px;
+  margin-bottom: 42px;
+  font-family: Arvo;
+  font-size: 37px;
+  line-height: 44px;
+  text-align: center;
 }
 
-.btn {
+.action-btn {
   padding: 14px 32px;
-  background-color: #F05638;
-  border-radius: 14px;
-  border: none;
-  color: white;
+  background-color: #f05638;
+  border-radius: 32px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 15px;
 }
