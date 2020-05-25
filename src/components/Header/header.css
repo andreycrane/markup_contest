@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  padding: 18px 30px 54px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 53.65%,
+    rgba(0, 0, 0, 0.5) 100%
+  ) #000000;
+  background-image: url(../../assets/image/Speaker.png);
+  background-position: 50% 0%;
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
+
+.menu-section {
+  display: flex;
+}
+
+.first-part {
+  color: #ffffff;
+}
+
+.second-part {
+  color: #FFC80A;
+  font-style: italic;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1 0 90%;
+}
+
+.navigation-item {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-subtitle {
+  color: white;
+  margin-bottom: 36px;
+  font-family: 'Arvo', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 74px;
+}
+
+.btn {
+  padding: 14px 32px;
+  background-color: #F05638;
+  border-radius: 14px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
