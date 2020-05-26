@@ -4,6 +4,7 @@
   padding: 72px 30px;
   background: url(../../assets/image/bg1.png);
   background-repeat: no-repeat;
+  background-size: auto 100%;
   font-family: Arvo;
   text-align: center;
 }
