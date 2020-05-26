@@ -8,56 +8,58 @@
   align-items: center;
 }
 
-.plan-title {
-  font-family: Montserrat;
+.pricing-card__title {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
-  text-align: center;
   letter-spacing: 2.4px;
   color: #212121;
   margin-bottom: 16px;
+  text-transform: uppercase;
 }
 
-.plan-price {
+.pricing-card__price {
   display: flex;
   justify-content: center;
-  font-family: Arvo;
+  font-family: 'Arvo', serif;
   color: #212121;
   margin-bottom: 26px;
 }
 
-.plan-currency {
+.pricing-card__price-currency {
   font-size: 38px;
   line-height: 38px;
   align-self: flex-start;
 }
 
-.plan-price {
+.pricing-card__price-value {
   font-size: 74px;
   line-height: 60px;
 }
 
-.plan-period {
+.pricing-card__price-period {
   font-size: 20px;
   line-height: 20px;
   color: #9fa3a7;
   align-self: flex-end;
 }
 
-.features-section {
+.pricing-card__features {
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 29px;
 }
 
-.feature-title {
+.pricing-card__features-item-title {
   padding: 1px;
   text-align: left;
   font-size: 13px;
   line-height: 16px;
-  color: #9FA3A7;
+  color: #9fa3a7;
 }
 
-.feature-value {
+.pricing-card__features-item-value {
   text-align: right;
   font-weight: bold;
   font-size: 14px;
@@ -66,9 +68,10 @@
   margin-right: 3px;
 }
 
-.buy-btn {
+.pricing-card__buy-btn {
+  font-family: 'Montserrat', sans-serif;
   padding: 16px 42px;
-  border: 1px solid #9FA3A7;
+  border: 1px solid #9fa3a7;
   border-radius: 100px;
   font-weight: bold;
   font-size: 12px;

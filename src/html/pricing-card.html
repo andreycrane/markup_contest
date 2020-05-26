@@ -1,23 +1,23 @@
 <div class="pricing-card">
-  <span class="plan-title">{{ plan.title }}</span>
-  <div class="plan-price">
-    <span class="plan-currency">$</span>
-    <span class="price">{{ plan.price }}</span>
-    <span class="plan-period">/mo</span>
+  <div class="pricing-card__title">{{ plan.title }}</div>
+  <div class="pricing-card__price">
+    <span class="pricing-card__price-currency">$</span>
+    <span class="pricing-card__price-value">{{ plan.price }}</span>
+    <span class="pricing-card__price-period">/mo</span>
   </div>
-  <table class="features-section">
-    <tr class="feature">
-      <td class="feature-value">{{ plan.projects }}</td>
-      <td class="feature-title">Projects</td>
+  <table class="pricing-card__features">
+    <tr class="pricing-card__features-item">
+      <td class="pricing-card__features-item-value">{{ plan.projects }}</td>
+      <td class="pricing-card__features-item-title">Projects</td>
     </tr>
-    <tr class="feature">
-      <td class="feature-value">{{ plan.images }}</td>
-      <td class="feature-title">Images</td>
+    <tr class="pricing-card__features-item">
+      <td class="pricing-card__features-item-value">{{ plan.images }}</td>
+      <td class="pricing-card__features-item-title">Images</td>
     </tr>
-    <tr class="feature">
-      <td class="feature-value">{{ plan.support }}</td>
-      <td class="feature-title">Support</td>
+    <tr class="pricing-card__features-item">
+      <td class="pricing-card__features-item-value">{{ plan.support }}</td>
+      <td class="pricing-card__features-item-title">Support</td>
     </tr>
   </table>
-  <a class="buy-btn">Buy now</a>
+  <a class="pricing-card__buy-btn">Buy now</a>
 </div>
