@@ -1,0 +1,43 @@
+.our-contacts {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 48px 38px 330px;
+  align-items: center;
+}
+
+.our-contacts__map,
+.our-contacts__map-overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.our-contacts__map-overlay {
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: 1;
+}
+
+.our-contacts__header {
+  margin-bottom: 11px;
+  font-family: Arvo, serif;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #212121;
+  z-index: 2;
+}
+
+.our-contacts__subheader {
+  margin: 0;
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  color: #5c5c5c;
+  z-index: 2;
+}
