@@ -5,20 +5,22 @@
   padding: 60px 20px;
 }
 
-.title {
-  font-family: Montserrat;
+.features-section__title {
+  margin-bottom: 18px;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
-  color: #9FA3A7;
-  margin-bottom: 18px;
+  letter-spacing: 2.4px;
+  color: #9fa3a7;
+  text-transform: uppercase;
 }
 
-.subtitle {
-  font-family: Arvo;
+.features-section__subtitle {
+  margin-bottom: 30px;
+  font-family: 'Arvo', serif;
   font-size: 30px;
   line-height: 48px;
   text-align: center;
   color: #212121;
-  margin-bottom: 30px;
 }
