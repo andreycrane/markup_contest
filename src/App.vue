@@ -3,6 +3,7 @@
     <Header />
     <Features />
     <NewsFeed />
+    <Pricing />
   </div>
 </template>
 
@@ -10,7 +11,7 @@
 import Header from "./components/Header/Header.vue";
 import Features from "./components/Features/Features.vue";
 import NewsFeed from "./components/NewsFeed/NewsFeed.vue";
-/*import Pricing from "./components/Pricing/Pricing.vue";*/
+import Pricing from "./components/Pricing/Pricing.vue";
 /*import GetStarted from "./components/GetStarted/GetStarted.vue";*/
 /*import ContactUs from "./components/ContactUs/ContactUs.vue";*/
 /*import Map from "./components/Map/Map.vue";*/
@@ -22,7 +23,7 @@ export default {
     Header,
     Features,
     NewsFeed,
-    /*Pricing,*/
+    Pricing,
     /*ContactUs,*/
     /*GetStarted,*/
     /*Map,*/

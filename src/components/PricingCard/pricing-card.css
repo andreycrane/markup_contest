@@ -1,0 +1,74 @@
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 60px 0;
+  margin: 12px 0;
+}
+
+.plan-title {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 2.4px;
+  color: #212121;
+  margin-bottom: 16px;
+}
+
+.plan-price {
+  display: flex;
+  justify-content: center;
+  font-family: Arvo;
+  color: #212121;
+  margin-bottom: 26px;
+}
+
+.plan-currency {
+  font-size: 38px;
+  line-height: 48px;
+  align-self: flex-start;
+}
+
+.plan-price {
+  font-size: 74px;
+  line-height: 50px;
+}
+
+.plan-period {
+  font-size: 20px;
+  line-height: 25px;
+  color: #9fa3a7;
+  align-self: flex-end;
+}
+
+.features-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 29px;
+}
+
+.feature {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+}
+
+.feature-title {
+  padding: 1px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #212121;
+}
+
+.feature-value {
+  padding: 1px;
+  text-align: right;
+  font-size: 13px;
+  line-height: 16px;
+  color: #9FA3A7;
+}

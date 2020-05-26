@@ -1,0 +1,22 @@
+.pricing {
+  display: flex;
+  flex-direction: column;
+  padding: 72px 30px;
+  background: url(../../assets/image/bg1.png);
+  background-repeat: no-repeat;
+  font-family: Arvo;
+  text-align: center;
+}
+
+.header {
+  font-size: 36px;
+  line-height: 48px;
+  color: #212121;
+  margin: 0 0 25px;
+}
+
+.subheader {
+  font-size: 14px;
+  line-height: 26px;
+  color: #9FA3A7;
+}
