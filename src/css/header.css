@@ -11,18 +11,28 @@
   font-family: Montserrat, sans-serif;
 }
 
-.menu-section {
+.header__menu-section {
   display: flex;
   justify-content: space-between;
   margin-bottom: 86px;
 }
 
-.second-part {
+.header-title {
+  display: flex;
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+  font-size: 39px;
+  justify-content: center;
+  margin: 0;
+  color: #ffffff;
+}
+
+.header-title__second_part {
   color: #ffc80a;
   font-style: italic;
 }
 
-.navigation {
+.header-navigation {
   display: none;
   position: fixed;
   top: 0;
@@ -35,22 +45,18 @@
   font-weight: bold;
 }
 
-.navigation--show {
-  display: flex;
-}
-
-.navigation-close {
+.header-navigation__close {
   font-size: 52px;
 }
 
-.navigation-item {
+.header-navigation__item {
   text-transform: uppercase;
   margin: 10px 0;
   font-size: 12px;
   line-height: 15px;
 }
 
-.mobile-button {
+.header-mobile-button {
   display: flex;
   flex-direction: column;
   width: 24px;
@@ -58,18 +64,18 @@
   justify-content: center;
 }
 
-.mobile-button__dash {
+.header-mobile-button__dash {
   display: block;
   height: 3px;
   background-color: white;
   margin: 2px 0;
 }
 
-.mobile-button__dash:nth-child(1) { width: 24px; }
-.mobile-button__dash:nth-child(2) { width: 18px; }
-.mobile-button__dash:nth-child(3) { width: 12px; }
+.header-mobile-button__dash:nth-child(1) { width: 24px; }
+.header-mobile-button__dash:nth-child(2) { width: 18px; }
+.header-mobile-button__dash:nth-child(3) { width: 12px; }
 
-.header-section {
+.header__title-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -77,20 +83,28 @@
   font-weight: bold;
 }
 
-.header-subtitle {
+.header__title-subtitle {
   margin-bottom: 42px;
-  font-family: Arvo;
+  font-family: 'Arvo', serif;
+  font-weight: bold;
   font-size: 37px;
   line-height: 44px;
   text-align: center;
+  color: #ffffff;
 }
 
-.action-btn {
+.header__title-action-btn {
+  text-transform: uppercase;
+  border-radius: 32px;
+  border: none;
   padding: 14px 32px;
   background-color: #f05638;
-  border-radius: 32px;
-  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
   font-size: 12px;
   line-height: 15px;
+  text-align: center;
+  letter-spacing: 2.4px;
+  color: #ffffff;
 }
-
