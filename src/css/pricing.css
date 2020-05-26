@@ -5,19 +5,22 @@
   background: url(../img/image/bg1.png);
   background-repeat: no-repeat;
   background-size: auto 100%;
-  font-family: Arvo;
   text-align: center;
 }
 
-.header {
+.pricing__header {
+  font-family: 'Arvo', serif;
   font-size: 36px;
+  font-weight: normal;
   line-height: 48px;
   color: #212121;
   margin: 0 0 25px;
 }
 
-.subheader {
+.pricing__subheader {
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 26px;
+  margin: 0 0 36px;
   color: #9FA3A7;
 }
