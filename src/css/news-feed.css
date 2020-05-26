@@ -2,19 +2,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: Arvo;
+  font-family: 'Arvo', serif;
   text-align: center;
   padding: 0 20px;
 }
 
-.title {
+.news-feed__title {
   font-size: 36px;
+  font-weight: normal;
   line-height: 48px;
   color: #212121;
   margin-bottom: 21px;
 }
 
-.subtitle {
+.news-feed__subtitle {
   font-size: 14px;
   line-height: 26px;
   color: #9fa3a7;
