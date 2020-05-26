@@ -6,12 +6,12 @@
       <span class="price" v-text="price" />
       <span class="plan-period">/mo</span>
     </div>
-    <div class="features-section">
-      <span class="feature" v-for="(feature, key) in features" :key="key">
-        <span v-text="feature.value" class="feature-value" />
-        <span v-text="feature.label" class="feature-title" />
-      </span>
-    </div>
+    <table class="features-section">
+      <tr class="feature" v-for="(feature, key) in features" :key="key">
+        <td v-text="feature.value" class="feature-value" />
+        <td v-text="feature.label" class="feature-title" />
+      </tr>
+    </table>
     <a class="buy-btn">Buy now</a>
   </div>
 </template>
@@ -32,7 +32,7 @@ export default {
         },
         {
           label: "support",
-          value: this.images
+          value: this.support
         }
       ];
     }

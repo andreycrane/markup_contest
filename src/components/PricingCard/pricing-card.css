@@ -5,6 +5,7 @@
   border-radius: 6px;
   padding: 60px 0;
   margin: 12px 0;
+  align-items: center;
 }
 
 .plan-title {
@@ -28,47 +29,51 @@
 
 .plan-currency {
   font-size: 38px;
-  line-height: 48px;
+  line-height: 38px;
   align-self: flex-start;
 }
 
 .plan-price {
   font-size: 74px;
-  line-height: 50px;
+  line-height: 60px;
 }
 
 .plan-period {
   font-size: 20px;
-  line-height: 25px;
+  line-height: 20px;
   color: #9fa3a7;
   align-self: flex-end;
 }
 
 .features-section {
-  display: flex;
-  flex-direction: column;
   margin-bottom: 29px;
-}
-
-.feature {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: auto;
 }
 
 .feature-title {
   padding: 1px;
   text-align: left;
+  font-size: 13px;
+  line-height: 16px;
+  color: #9FA3A7;
+}
+
+.feature-value {
+  text-align: right;
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
   color: #212121;
+  margin-right: 3px;
 }
 
-.feature-value {
-  padding: 1px;
-  text-align: right;
-  font-size: 13px;
-  line-height: 16px;
-  color: #9FA3A7;
+.buy-btn {
+  padding: 16px 42px;
+  border: 1px solid #9FA3A7;
+  border-radius: 100px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 2.4px;
+  color: #525252;
+  text-transform: uppercase;
 }
