@@ -14,51 +14,39 @@
   box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.1);
 }
 
-.feature-img {
+.feature__img {
   width: 100%;
   height: 180px;
   margin-bottom: 12px;
   background-repeat: no-repeat;
 }
 
-.feature-title {
+.feature__title {
+  margin-bottom: 17px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
   text-align: center;
-  text-transform: uppercase;
   letter-spacing: 2.4px;
   color: #212121;
-  margin-bottom: 17px;
+  text-transform: uppercase;
 }
 
-.feature-description {
-  font-family: Arvo;
+.feature__description {
+  font-family: 'Arvo', serif;
   font-size: 14px;
   line-height: 26px;
   text-align: center;
-  color: #9FA3A7
+  color: #9fa3a7;
 }
 
-.feature-description::first-letter {
+.feature__description::first-letter {
   text-transform: capitalize;
 }
 
-.new-badge {
-  position: absolute;
-  right: 0;
-  top: 0;
-  background: #ffc80a;
-  transform: translate(40px, 15px) rotate(45deg);
-  padding: 5px 50px;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 2.4px;
-  color: #1C1C1C;
-}
-
-.new-button {
+.feature__new-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,9 +57,26 @@
   height: 40px;
 }
 
-.arrow {
+.feature__new-button-arrow {
   font-weight: bold;
   color: #8f75be;
   font-size: 42px;
-  transform: translate(0, -3px);
+  transform: translate(0, -1px);
+}
+
+.feature__new-badge {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #ffc80a;
+  transform: translate(40px, 15px) rotate(45deg);
+  padding: 5px 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 2.4px;
+  color: #1c1c1c;
+  text-transform: uppercase;
 }

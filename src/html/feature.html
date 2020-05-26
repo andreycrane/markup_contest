@@ -1,16 +1,16 @@
 <div class="feature feature--new">
   <div
-    class="feature-img"
+    class="feature__img"
     style="background-image: url('{{ feature.img }}'); background-position: {{ feature.position }};"
   ></div>
-  <span class="feature-title">{{ feature.title }}</span>
-  <span class="feature-description">{{ feature.description }}</span>
+  <span class="feature__title">{{ feature.title }}</span>
+  <span class="feature__description">{{ feature.description }}</span>
   <if condition="feature.isNew">
-    <a class="new-button">
-      <span class="arrow">
+    <a class="feature__new-button">
+      <span class="feature__new-button-arrow">
         &rarr;
       </span>
     </a>
-    <span class="new-badge">New</span>
+    <span class="feature__new-badge">New</span>
   </if>
 </div>
