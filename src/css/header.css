@@ -4,7 +4,7 @@
   padding: 18px 30px 54px;
   background: #000000;
   color: #ffffff;
-  background-image: url(../../assets/image/Speaker.png);
+  background-image: url(../img/image/Speaker.png);
   background-position: 50% 200px;
   background-size: 150%;
   background-repeat: no-repeat;
@@ -93,3 +93,4 @@
   font-size: 12px;
   line-height: 15px;
 }
+

@@ -1,0 +1,16 @@
+<div class="feature feature--new">
+  <div
+    class="feature-img"
+    style="background-image: url('{{ feature.img }}'); background-position: {{ feature.position }};"
+  ></div>
+  <span class="feature-title">{{ feature.title }}</span>
+  <span class="feature-description">{{ feature.description }}</span>
+  <if condition="feature.isNew">
+    <a class="new-button">
+      <span class="arrow">
+        &rarr;
+      </span>
+    </a>
+    <span class="new-badge">New</span>
+  </if>
+</div>

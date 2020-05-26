@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   padding: 72px 30px;
-  background: url(../../assets/image/bg1.png);
+  background: url(../img/image/bg1.png);
   background-repeat: no-repeat;
   background-size: auto 100%;
   font-family: Arvo;

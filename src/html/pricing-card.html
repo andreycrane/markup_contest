@@ -1,0 +1,23 @@
+<div class="pricing-card">
+  <span class="plan-title">{{ plan.title }}</span>
+  <div class="plan-price">
+    <span class="plan-currency">$</span>
+    <span class="price">{{ plan.price }}</span>
+    <span class="plan-period">/mo</span>
+  </div>
+  <table class="features-section">
+    <tr class="feature">
+      <td class="feature-value">{{ plan.projects }}</td>
+      <td class="feature-title">Projects</td>
+    </tr>
+    <tr class="feature">
+      <td class="feature-value">{{ plan.images }}</td>
+      <td class="feature-title">Images</td>
+    </tr>
+    <tr class="feature">
+      <td class="feature-value">{{ plan.support }}</td>
+      <td class="feature-title">Support</td>
+    </tr>
+  </table>
+  <a class="buy-btn">Buy now</a>
+</div>

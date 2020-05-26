@@ -1,0 +1,11 @@
+<section class="pricing">
+  <h2 class="header">Choose Pricing Plan</h2>
+  <span class="subheader">
+    This new-found knowledge may then be
+    used by engineers to create new tools
+    and machines
+  </span>
+  <each loop="plan in pricingPlans">
+    <include src="./src/html/pricing-card.html" locals="{ plan }"></include>
+  </each>
+</section>
