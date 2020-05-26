@@ -7,7 +7,7 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run dev
 ```
 
 ### Compiles and minifies for production
@@ -15,10 +15,9 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+### usefull links
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[Parcel](https://parceljs.org/)
+[PostHTML](https://github.com/posthtml)
+[PostHTML include](https://github.com/posthtml/posthtml-include)
+[PostHTML expressions](https://github.com/posthtml/posthtml-expressions)
