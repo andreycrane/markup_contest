@@ -2,7 +2,8 @@
   padding: 93px 20px;
   background-image: url(../img/image/bg2.png);
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: -100px -500px;
+  background-size: 300% 300%;
 }
 
 .get-started__card {
