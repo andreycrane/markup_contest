@@ -1,11 +1,23 @@
 <article class="news-item">
-  <img src="{{ newsItem.imgUrl }}" class="item-img"/>
-  <div class="item-preview">
-    <h2 class="preview-title">{{ newsItem.title }}</h2>
-    <div class="preview-description">{{ newsItem.description }}</div>
+  <img class="news-item__img" src="{{ newsItem.imgUrl }}" />
+  <div class="news-item__preview">
+    <h3 class="news-item__preview-title">{{ newsItem.title }}</h3>
+    <p class="news-item__preview-description">{{ newsItem.description }}</p>
   </div>
-  <div class="item-info">
-    <div class="info-published">{{ newsItem.published }}</div>
-    <div class="info-views">{{ newsItem.views }}</div>
+  <div class="news-item__info">
+    <div class="news-item__info-published">
+      <img
+        class="news-item__info-icon"
+        src="../img/icons/Clock.svg"
+      />
+      {{ newsItem.published }}
+    </div>
+    <div class="news-item__info-views">
+      <img
+        class="news-item__info-icon"
+        src="../img/icons/eye-icon.svg"
+      />
+      {{ newsItem.views }}
+    </div>
   </div>
 </article>
