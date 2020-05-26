@@ -1,0 +1,70 @@
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 85px 0;
+}
+
+.contact-us__image {
+  background-image: url(../img/image/Megaphone.png);
+  height: 150px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: -45px 0px;
+}
+
+.contact-us__header {
+  font-family: 'Arvo', serif;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 24px;
+}
+
+.contact-us__subheader {
+  margin: 0 0 55px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  color: #9fa3a7;
+}
+
+.contact-us__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us__form-input {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9fa3a7;
+  background: #f7f8f9;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  padding: 16px 19px;
+  resize: none;
+}
+
+
+.contact-us__form-input:last-child {
+  margin-bottom: 18px;
+}
+
+.contact-us__form-submit {
+  background: #f9593a;
+  border-radius: 100px;
+  border: none;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 2.4px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 16px 83px;
+}
