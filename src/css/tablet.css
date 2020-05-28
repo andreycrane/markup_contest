@@ -5,4 +5,5 @@
   @import './tablet/feature.css';
   @import './tablet/news-feed.css';
   @import './tablet/news-item.css';
+  @import './tablet/pricing.css';
 }

@@ -1,3 +1,7 @@
+.news-feed {
+  padding: 0 47px;
+}
+
 .news-feed__news-wrapper {
   display: flex;
   flex-wrap: wrap;
