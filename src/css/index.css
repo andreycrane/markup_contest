@@ -20,14 +20,19 @@ body {
   flex-direction: column;
 }
 
-@import './header.css';
-@import './features.css';
-@import './feature.css';
-@import './news-feed.css';
-@import './news-item.css';
-@import './pricing.css';
-@import './pricing-card.css';
-@import './get-started.css';
-@import './contact-us.css';
-@import './our-contacts.css';
-@import './footer.css';
+@import './mobile/header.css';
+@import './mobile/features.css';
+@import './mobile/feature.css';
+@import './mobile/news-feed.css';
+@import './mobile/news-item.css';
+@import './mobile/pricing.css';
+@import './mobile/pricing-card.css';
+@import './mobile/get-started.css';
+@import './mobile/contact-us.css';
+@import './mobile/our-contacts.css';
+@import './mobile/footer.css';
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  @import './tablet/header.css';
+}

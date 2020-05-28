@@ -4,17 +4,17 @@
   padding: 18px 30px 54px;
   background: #000000;
   color: #ffffff;
-  background-image: url(../img/image/Speaker.png);
+  background-image: url(../../img/image/Speaker.png);
   background-position: 50% 200px;
   background-size: 150%;
   background-repeat: no-repeat;
-  font-family: Montserrat, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header__menu-section {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 86px;
+  margin-bottom: 85px;
 }
 
 .header-title {

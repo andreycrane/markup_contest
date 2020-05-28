@@ -1,0 +1,11 @@
+.header {
+  padding: 55px 60px 136px;
+  background-position: 50% 205px;
+  background-size: 90%;
+}
+
+.header__title-subtitle {
+  font-size: 60px;
+  line-height: 74px;
+  margin-bottom: 36px;
+}
