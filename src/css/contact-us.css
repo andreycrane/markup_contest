@@ -2,12 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 85px 0;
+  padding: 85px 0 90px;
 }
 
 .contact-us__image {
   background-image: url(../img/image/Megaphone.png);
-  height: 150px;
+  height: 195px;
   width: 100%;
   background-repeat: no-repeat;
   background-position: -45px 0px;
@@ -16,14 +16,15 @@
 .contact-us__header {
   font-family: 'Arvo', serif;
   font-size: 36px;
+  font-weight: normal;
   line-height: 48px;
   text-align: center;
   color: #212121;
-  margin-bottom: 24px;
+  margin: 0 20px 24px;
 }
 
 .contact-us__subheader {
-  margin: 0 0 55px;
+  margin: 0 20px 45px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 26px;
@@ -34,10 +35,14 @@
 .contact-us__form {
   display: flex;
   flex-direction: column;
+  background: #FFFFFF;
+  box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 18px;
 }
 
 .contact-us__form-input {
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
@@ -59,7 +64,7 @@
   background: #f9593a;
   border-radius: 100px;
   border: none;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
