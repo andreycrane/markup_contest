@@ -5,7 +5,9 @@
     used by engineers to create new tools
     and machines
   </p>
-  <each loop="plan in pricingPlans">
-    <include src="./src/html/pricing-card.html" locals="{ plan }"></include>
-  </each>
+  <div class="pricing__plans-wrapper">
+    <each loop="plan in pricingPlans">
+      <include src="./src/html/pricing-card.html" locals="{ plan }"></include>
+    </each>
+  </div>
 </section>
