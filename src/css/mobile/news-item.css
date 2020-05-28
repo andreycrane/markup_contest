@@ -65,3 +65,12 @@
   margin-right: 5px;
   height: 12px;
 }
+
+
+.news-item:nth-child(3n) {
+  background-color: #292929;
+}
+
+.news-item:nth-child(3n) .news-item__preview-title {
+  color: #ffffff;
+}
