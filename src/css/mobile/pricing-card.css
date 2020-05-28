@@ -3,9 +3,31 @@
   flex-direction: column;
   background: #ffffff;
   border-radius: 6px;
-  padding: 60px 0;
+  padding: 18px 18px 60px;
   margin: 12px 0;
   align-items: center;
+}
+
+.pricing-card__popular-section {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  min-height: 18px;
+  margin-bottom: 25px;
+}
+
+.pricing-card__popular-badge {
+  border-radius: 4px;
+  padding: 4px 7px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 8px;
+  line-height: 10px;
+  text-align: center;
+  letter-spacing: 1.92px;
+  color: #ffffff;
+  background: #ffc80a;
+  text-transform: uppercase;
 }
 
 .pricing-card__title {

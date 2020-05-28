@@ -83,7 +83,7 @@ module.exports = {
             projects: "10",
             images: "40",
             support: "12/7",
-            popular: true
+            isPopular: true
           },
           {
             title: "BASIC PLAN",

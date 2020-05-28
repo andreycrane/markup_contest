@@ -1,4 +1,11 @@
 <div class="pricing-card">
+  <div class="pricing-card__popular-section">
+    <if condition="plan.isPopular">
+      <div class="pricing-card__popular-badge">
+        popular
+      </div>
+    </if>
+  </div>
   <div class="pricing-card__title">{{ plan.title }}</div>
   <div class="pricing-card__price">
     <span class="pricing-card__price-currency">$</span>
