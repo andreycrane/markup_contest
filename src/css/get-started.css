@@ -16,17 +16,17 @@
   border-radius: 8px;
 }
 
-.card__title {
-  font-family: Arvo;
+.get-started__card-title {
+  margin-bottom: 24px;
+  font-family: 'Arvo', serif;
   font-size: 24px;
   line-height: 32px;
   color: #212121;
-  margin-bottom: 24px;
 }
 
-.card__button {
+.get-started__card-button {
   padding: 14px 30px;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
@@ -39,7 +39,7 @@
   margin-bottom: 11px;
 }
 
-.card__button--secondary {
+.get-started__card-button--secondary {
   background: #F05638;
   color: #ffffff;
   border-color: #F05638;
