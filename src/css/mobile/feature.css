@@ -5,9 +5,10 @@
   align-items: center;
   margin-bottom: 42px;
   overflow: hidden;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   border-radius: 15px;
   padding: 54px 32px;
+  max-width: 280px;
 }
 
 .feature--new {

@@ -1,0 +1,11 @@
+.features-section {
+  padding: 90px 60px 20px;
+}
+
+.features-section__subtitle {
+  font-size: 36px;
+}
+
+.features-section__features-wrapper {
+  display: flex;
+}

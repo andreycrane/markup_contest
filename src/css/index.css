@@ -31,8 +31,3 @@ body {
 @import './mobile/contact-us.css';
 @import './mobile/our-contacts.css';
 @import './mobile/footer.css';
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  @import './tablet/header.css';
-}
