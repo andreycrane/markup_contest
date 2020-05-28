@@ -3,4 +3,6 @@
   @import './tablet/header.css';
   @import './tablet/features.css';
   @import './tablet/feature.css';
+  @import './tablet/news-feed.css';
+  @import './tablet/news-item.css';
 }
