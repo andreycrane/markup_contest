@@ -29,7 +29,7 @@
 
 .footer__nav-item {
   margin-bottom: 29px;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
@@ -64,7 +64,6 @@
 .footer__socials--item-instagram {
   background-image: url('../img/icons/Mask.svg');
 }
-
 
 .footer__copyright {
   border-top: 1px solid #4F4F4F;
