@@ -18,13 +18,18 @@
 }
 
 .our-contacts__map-overlay {
-  background-color: rgba(255, 255, 255, 0.6);
+  background: linear-gradient(
+    180deg,
+    rgba(235, 242, 243, 0.9) 28.65%,
+    rgba(218, 218, 218, 0) 51.41%
+  );
   z-index: 1;
 }
 
 .our-contacts__header {
   margin-bottom: 11px;
-  font-family: Arvo, serif;
+  font-family: 'Arvo', serif;
+  font-weight: normal;
   font-size: 36px;
   line-height: 48px;
   text-align: center;
@@ -34,7 +39,7 @@
 
 .our-contacts__subheader {
   margin: 0;
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 26px;
   text-align: center;
