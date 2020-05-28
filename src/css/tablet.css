@@ -6,4 +6,5 @@
   @import './tablet/news-feed.css';
   @import './tablet/news-item.css';
   @import './tablet/pricing.css';
+  @import './tablet/pricing-card.css';
 }
