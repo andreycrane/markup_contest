@@ -1,0 +1,24 @@
+.footer {
+  align-items: center;
+  padding: 80px 50px 70px;
+}
+
+.footer__main-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.footer__main-part,
+.footer__copyright {
+  max-width: 940px;
+  width: 100%;
+}
+
+.footer__header,
+.footer__nav,
+.footer__nav-item,
+.footer__socials {
+  margin-bottom: 0;
+}
