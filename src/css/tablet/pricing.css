@@ -1,3 +1,7 @@
+.pricing {
+  padding: 72px 30px 122px;
+}
+
 .pricing__plans-wrapper {
   display: flex;
   justify-content: center;
