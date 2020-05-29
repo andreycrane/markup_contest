@@ -9,3 +9,7 @@
   line-height: 74px;
   margin-bottom: 36px;
 }
+
+.header__title-subtitle {
+  max-width: 587px;
+}
