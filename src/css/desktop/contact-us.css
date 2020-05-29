@@ -1,0 +1,20 @@
+.contact-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 88px 0 122px;
+}
+
+.contact-us__heading-part,
+.contact-us__form-part {
+  justify-content: center;
+  max-width: 464px;
+}
+
+.contact-us__image {
+  height: 150px;
+}
+
+.contact-us__subheader {
+  margin-bottom: 0;
+}
