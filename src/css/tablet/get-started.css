@@ -1,0 +1,22 @@
+.get-started {
+  padding: 132px 47px 117px;
+}
+
+.get-started__card {
+  flex-direction: row;
+  justify-content: center;
+  padding: 54px 85px;
+}
+
+.get-started__card-title,
+.get-started__card-button {
+  margin-bottom: 0;
+}
+
+.get-started__card-title {
+    margin-right: 28px;
+}
+
+.get-started__card-button:first-of-type {
+  margin-right: 14px;
+}
