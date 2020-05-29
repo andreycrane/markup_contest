@@ -1,4 +1,5 @@
 @media (min-width: 992px) {
   @import './desktop/header.css';
   @import './desktop/features.css';
+  @import './desktop/feature.css';
 }
