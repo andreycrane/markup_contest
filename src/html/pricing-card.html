@@ -1,4 +1,4 @@
-<div class="pricing-card">
+<div class="pricing-card {{ plan.isPopular ? 'pricing-card--popular' : '' }}">
   <div class="pricing-card__popular-section">
     <if condition="plan.isPopular">
       <div class="pricing-card__popular-badge">

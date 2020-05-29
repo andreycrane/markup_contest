@@ -102,3 +102,9 @@
   color: #525252;
   text-transform: uppercase;
 }
+
+.pricing-card--popular .pricing-card__buy-btn {
+  background: #F9593A;
+  border-color: #F9593A;
+  color: #ffffff;
+}
