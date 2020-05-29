@@ -4,4 +4,5 @@
   @import './desktop/feature.css';
   @import './desktop/news-feed.css';
   @import './desktop/news-item.css';
+  @import './desktop/pricing.css';
 }
