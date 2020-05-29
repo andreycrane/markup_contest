@@ -2,4 +2,5 @@
   @import './desktop/header.css';
   @import './desktop/features.css';
   @import './desktop/feature.css';
+  @import './desktop/news-feed.css';
 }
