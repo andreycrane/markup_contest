@@ -1,5 +1,10 @@
 <article class="news-item">
-  <img class="news-item__img" src="{{ newsItem.imgUrl }}" />
+  <img
+    class="news-item__img"
+    src="{{ newsItem.imgUrl }}"
+    loading="lazy"
+    importance="low"
+  />
   <div class="news-item__preview">
     <h3 class="news-item__preview-title">{{ newsItem.title }}</h3>
     <p class="news-item__preview-description">{{ newsItem.description }}</p>
