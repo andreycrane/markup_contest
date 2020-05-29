@@ -6,6 +6,7 @@
   flex-direction: row;
   justify-content: center;
   padding: 54px 85px;
+  max-width: 739px;
 }
 
 .get-started__card-title,
