@@ -1,0 +1,16 @@
+.contact-us {
+  padding: 90px 20px 102px;
+}
+
+.contact-us__header {
+  margin-bottom: 27px;
+}
+
+.contact-us__subheader {
+  margin-bottom: 42px;
+}
+
+.contact-us__form {
+  max-width: 464px;
+  padding: 47px;
+}
