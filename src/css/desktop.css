@@ -5,4 +5,5 @@
   @import './desktop/news-feed.css';
   @import './desktop/news-item.css';
   @import './desktop/pricing.css';
+  @import './desktop/pricing-card.css';
 }

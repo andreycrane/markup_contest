@@ -1,6 +1,7 @@
 .pricing-card {
   margin: 0 -15px;
-  padding: 18px 45px 60px;
+  padding: 18px 45px 58px;
+  min-width: 250px;
 }
 
 .pricing-card--popular {
