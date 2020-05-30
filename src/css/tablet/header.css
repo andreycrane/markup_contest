@@ -4,6 +4,10 @@
   background-size: 90%;
 }
 
+.webp .header {
+  background-image: url(../../img/image/Speaker.webp);
+}
+
 .header__title-subtitle {
   font-size: 60px;
   line-height: 74px;

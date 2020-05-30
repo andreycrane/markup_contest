@@ -14,8 +14,10 @@
   background-image: url(../../img/image/Speaker.png);
 }
 
-.webp .header {
-  background-image: url(../../img/image/Speaker.webp);
+@media (max-width: 778px) {
+  .webp .header {
+    background-image: url(../../img/image/Speaker_mobile.webp);
+  }
 }
 
 .header__menu-section {
