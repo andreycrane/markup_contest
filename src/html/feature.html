@@ -1,8 +1,12 @@
 <div class="feature {{ feature.isNew ? 'feature--new' : '' }}">
-  <div
-    class="feature__img"
-    style="background-image: url('{{ feature.img }}'); background-position: {{ feature.position }};"
-  ></div>
+  <picture>
+    <source srcset="{{ feature.imgWebP }}" type="image/webp">
+    <img
+      src="{{ feature.img }}"
+      class="feature__img"
+      style="object-position: {{ feature.position }}"
+    >
+  <picture>
   <span class="feature__title">{{ feature.title }}</span>
   <span class="feature__description">{{ feature.description }}</span>
   <if condition="feature.isNew">

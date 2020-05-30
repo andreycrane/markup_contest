@@ -6,6 +6,7 @@ module.exports = {
         features: [
           {
             img: '../img/image/paper_hand.png',
+            imgWebP: '../img/image/paper_hand.webp',
             title: 'a4 paper',
             description:
               'computer manufacturer Lenovo is in hot water this week after pre-installing',
@@ -13,6 +14,7 @@ module.exports = {
           },
           {
             img: '../img/image/Eyedropper.png',
+            imgWebP: '../img/image/Eyedropper.webp',
             title: 'EYEDROPER',
             description:
               'It seems like hundreds of new iPhone apps pop up every week, but which',
@@ -21,6 +23,7 @@ module.exports = {
           },
           {
             img: '../img/image/Crown.png',
+            imgWebP: '../img/image/Crown.webp',
             title: 'CROWN',
             description:
               'Watching a movie on your smartphone can be pretty great, but who has the arm',
