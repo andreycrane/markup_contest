@@ -33,3 +33,4 @@ sudo apt-get install webp
 [PostHTML include](https://github.com/posthtml/posthtml-include)
 [PostHTML expressions](https://github.com/posthtml/posthtml-expressions)
 [WebP](https://developers.google.com/speed/webp/)
+[Firebase hosting config](https://firebase.google.com/docs/hosting/full-config)
