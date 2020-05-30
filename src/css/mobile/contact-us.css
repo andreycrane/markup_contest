@@ -21,6 +21,14 @@
   background-position: calc(50% - 15px) 0px;
 }
 
+.no-webp .contact-us__image {
+  background-image: url(../../img/image/Megaphone.png);
+}
+
+.webp .contact-us__image {
+  background-image: url(../../img/image/Megaphone.webp);
+}
+
 .contact-us__header {
   font-family: 'Arvo', serif;
   font-size: 36px;

@@ -2,10 +2,17 @@
   display: flex;
   flex-direction: column;
   padding: 72px 30px;
-  background: url(../../img/image/bg1.png);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+}
+
+.no-webp .pricing {
+  background: url(../../img/image/bg1.png);
+}
+
+.webp .pricing {
+  background: url(../../img/image/bg1.webp);
 }
 
 .pricing__header {

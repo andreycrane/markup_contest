@@ -2,9 +2,16 @@
   display: flex;
   justify-content: center;
   padding: 93px 20px;
-  background-image: url(../../img/image/bg2.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.no-webp .get-started {
+  background-image: url(../../img/image/bg2.png);
+}
+
+.webp .get-started {
+  background-image: url(../../img/image/bg2.webp);
 }
 
 .get-started__card {
