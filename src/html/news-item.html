@@ -4,6 +4,7 @@
     <img
       class="news-item__img"
       src="{{ newsItem.imgUrl }}"
+      alt="{{ newsItem.title }}"
       loading="lazy"
       importance="low"
     />
@@ -19,6 +20,7 @@
         src="../img/icons/Clock.svg"
         loading="lazy"
         importance="low"
+        alt="clock icon"
       />
       {{ newsItem.published }}
     </div>
@@ -28,6 +30,7 @@
         src="../img/icons/eye-icon.svg"
         loading="lazy"
         importance="low"
+        alt="views icon"
       />
       {{ newsItem.views }}
     </div>
