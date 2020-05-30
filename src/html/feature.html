@@ -1,6 +1,6 @@
 <div class="feature {{ feature.isNew ? 'feature--new' : '' }}">
   <picture>
-    <source srcset="{{ feature.imgWebP }}" type="image/webp">
+    <source srcset="{{ feature.imgWebP }}" type="image/webp" />
     <img
       src="{{ feature.img }}"
       alt="{{ feature.title }}"
@@ -8,8 +8,8 @@
       style="object-position: {{ feature.position }}"
       loading="lazy"
       importance="low"
-    >
-  <picture>
+    />
+  </picture>
   <span class="feature__title">{{ feature.title }}</span>
   <span class="feature__description">{{ feature.description }}</span>
   <if condition="feature.isNew">
