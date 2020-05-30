@@ -30,6 +30,7 @@ module.exports = {
         news: [
           {
             imgUrl: '../img/image/01.png',
+            imgUrlWebP: '../img/image/01.webp',
             title: 'The number of protons',
             description:
               'Apple Inc has decided to launch the much awaited Apple Watch in the',
@@ -38,6 +39,7 @@ module.exports = {
           },
           {
             imgUrl: '../img/image/02.png',
+            imgUrlWebP: '../img/image/02.webp',
             title: 'Sport Stadium Birdview',
             description:
               'Apple Inc has decided to launch the much awaited Apple Watch in the',
@@ -46,6 +48,7 @@ module.exports = {
           },
           {
             imgUrl: '../img/image/03.png',
+            imgUrlWebP: '../img/image/03.webp',
             title: 'The number of protons',
             description:
               'Startup founders often have a more casual or offbeat attitude in their dress, office space and marketing, as compared to',
@@ -54,6 +57,7 @@ module.exports = {
           },
           {
             imgUrl: '../img/image/04.png',
+            imgUrlWebP: '../img/image/04.webp',
             title: 'The number of protons',
             description:
               'Apple Inc has decided to launch the much awaited Apple Watch in the',
@@ -62,6 +66,7 @@ module.exports = {
           },
           {
             imgUrl: '../img/image/05.png',
+            imgUrlWebP: '../img/image/05.webp',
             title: 'The number of protons',
             description:
               'Apple Inc has decided to launch the much awaited Apple Watch in the upcoming month of April and has already received around five to six million',
