@@ -37,10 +37,21 @@
   text-align: center;
   letter-spacing: 2.4px;
   text-transform: uppercase;
+  color: #ffffff;
 }
 
 .footer__nav-item:last-child {
   margin-bottom: 0;
+}
+
+.footer__nav-item:hover {
+  text-decoration: underline;
+}
+
+.footer__nav-item,
+.footer__nav-item:visited,
+.footer__nav-item:active {
+  text-decoration: none;
 }
 
 .footer__socials {

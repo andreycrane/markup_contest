@@ -64,9 +64,20 @@
 
 .header-navigation__item {
   text-transform: uppercase;
+  color: #ffffff;
   margin: 10px 0;
   font-size: 12px;
   line-height: 15px;
+}
+
+.header-navigation__item:hover {
+  text-decoration: underline;
+}
+
+.header-navigation__item,
+.header-navigation__item:visited,
+.header-navigation__item:active {
+  text-decoration: none;
 }
 
 .header-mobile-button {
