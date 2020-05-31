@@ -54,6 +54,10 @@
   font-weight: bold;
 }
 
+.header-navigation--show {
+  display: flex;
+}
+
 .header-navigation__close {
   font-size: 52px;
 }
