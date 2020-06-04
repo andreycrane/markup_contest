@@ -41,3 +41,5 @@ sudo apt-get install webp
 [Firebase hosting config](https://firebase.google.com/docs/hosting/full-config)
 
 [Optimize lcp](https://web.dev/optimize-lcp/)
+
+[Pagespeed Insights results differ from lighthouse in chrome](https://github.com/GoogleChrome/lighthouse/issues/6708)
