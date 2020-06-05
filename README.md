@@ -1,6 +1,13 @@
 # markup-contest
 
-## Project setup
+This is repository of adaptive landing page markup. It is a result of
+participation in local markup contest in a company where I work. You can
+see it by link [markup-contest.web.app](https://markup-contest.web.app/)
+
+To achieve this task I used "mobile first" methodology and "БЭМ" for
+naming css classes. My working toolset was parcel + posthtml
+
+### Project setup
 ```
 npm install
 ```
@@ -26,7 +33,7 @@ sudo apt-get install webp
 ```
 
 
-### usefull links
+### Usefull links
 
 [Parcel](https://parceljs.org/)
 
